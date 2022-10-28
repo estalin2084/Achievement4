@@ -15,6 +15,7 @@ dash = " - "
 print("")
 print("Please choose which course you'd like to register in: ")
 courseCodes = {1 :'ENG123', 2 :'HIS456', 3: 'PROG789', 4: 'MATH639'}
+courseName = {"ENG123": "English Class", "HIS456": "History of the Americas", "PROG789": "Programming III", "MATH639": "Mathematics"}
 
 for i, v in courseCodes.items():
     print(str(i) + " - " + v)
@@ -28,7 +29,8 @@ iterate_list = courseSelection.split(",")
 for x in iterate_list:
     selectedCourses.append(courseCodes.get(int(x)))
 
-
-
 print("Student information:", separator.join(student_info))
-print ("Courses selected:",dash.join(selectedCourses))
+print ("Courses selected:") 
+for v in selectedCourses:
+    print(v + " - " + courseName.get(v))
+
