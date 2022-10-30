@@ -53,10 +53,10 @@ elif unit_selector == "2": #This evaluates the user selection for speed.
     unit = input("KMH or MPH: ") #this takes the kind of distance 
     speed_convert(val, unit)#This returns the values from the fuction speed converter and  applies the formula
 
-print(" - " *40)
+print(" - " *40)#separates the data printed with dashes
 
 goodBye = input("Do you wish to continue? [Yes/No]: ".strip())#This variable asks the user if wants to continue in the process 
-print(" - " *40)
+print(" - " *40)#separates the data printed with dashes
 while goodBye == True: #This while evaluates either if the user wants to continue or not converting speed or temperatures.
     if goodBye.upper() == "Yes" or goodBye.upper() == "Y":
         goodBye = True
