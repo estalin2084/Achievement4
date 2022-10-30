@@ -2,7 +2,7 @@
 # Author: Estalin Peña
 # Date Created: october 27, 2022
 # Date Last Modified: october 28, 2022
-#A program to allow users to register in multiple courses.
+#A program to allow users to register in a course
 
 
 print("\t","\t","\t","Welcome to EP Learning Institution!")#Welcome Message for the user
